@@ -1,0 +1,33 @@
+<div id="login" class="container-fluid d-flex justify-content-center align-items-center  ">
+    <div class="w-75  ">
+        <div class="row">
+            <div class="col-lg-3 col-md-1 "></div>
+            <div class="col-lg-6 col-md-10 col-sm-12 ">
+                <h1 class="text-center text-light pb-3 pb-sm-4 fw-semibold fw-sm-bold ">Accedi</h1>
+                <form class="p-4  p-md-5 pt-md-5 bg-light rounded-3  ">
+                    <div class="mb-2 input-group-lg">
+                        <label for="exampleInputEmail1" class="form-label p-1">Email</label>
+                        <input type="email" class="form-control" placeholder="example@gmail.com" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-4 input-group-lg">
+                        <label for="exampleInputPassword1" class="form-label p-1">Password</label>
+                        <input type="password" placeholder="*********" class="form-control" id="exampleInputPassword1">
+                        
+                    </div>
+
+                    <button type="submit" (click)="login()" class="btn btn-primary w-100">Login</button>
+
+                    <div class="mb-3 mt-3 text-center">
+                        <label for="exampleInputPassword1" class="form-label">Non hai un account?</label>
+                        <a class="d-block text-dark" routerLink="/registro">Registrati</a>
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="col-lg-3 col-md-1 "></div>
+
+        </div>
+    </div>
+
+</div>

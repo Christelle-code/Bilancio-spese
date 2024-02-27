@@ -1,0 +1,53 @@
+<div id="register" class="container-fluid d-flex justify-content-center align-items-center  ">
+    <div class="w-75  ">
+        <div class="row">
+            <div class="col-lg-3 col-md-1 "></div>
+            <div class="col-lg-6 col-md-10 col-sm-12 ">
+                <h1 class="text-center text-dark pb-3 pb-sm-4 fw-semibold fw-sm-bold ">Registrati</h1>
+                <form class="p-4 p-md-5 pt-md-5 bg-light rounded-3  ">
+
+                  
+
+                    <div class="input-group input-group-lg mb-3">
+                        <input class="form-control" type="text" placeholder="Username" aria-label="With textarea" />
+                        <span class="input-group-text "> <i class="fa-solid fa-check"></i></span>
+
+                    </div>
+
+                    <div class="input-group input-group-lg mb-3">
+                        <input class="form-control" type="email" placeholder="Email" aria-label="With textarea" />
+                        <span  class="input-group-text "> <i class="fa-solid fa-check"></i></span>
+
+                    </div>
+
+                    <div class="input-group input-group-lg mb-3">
+                        <input class="form-control" type="text" placeholder="Password" aria-label="With textarea" />
+                        <span class="input-group-text"> <i class="fa-solid fa-check"></i></span>
+
+                    </div>
+
+                    <div class="input-group input-group-lg mb-4">
+                        <input class="form-control" type="password" placeholder="Conferma Password" aria-label="With textarea" />
+                        <span class="input-group-text"> <i class="fa-solid fa-check"></i></span>
+
+                    </div>
+
+
+                   
+
+                    <button type="submit" (click)="register()" class="btn btn-primary w-100">Registrati</button>
+
+                    <div class="mb-3 mt-3 text-center">
+                        <label for="exampleInputPassword1" class="form-label">Hai già un account?</label>
+                        <a class="d-block text-dark" routerLink="/login">Accedi</a>
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="col-lg-3 col-md-1 "></div>
+
+        </div>
+    </div>
+
+</div>
